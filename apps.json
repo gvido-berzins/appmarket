@@ -1,0 +1,114 @@
+{
+  "updated": "2026-06-12",
+  "market": {
+    "name": "Gvido's Apps",
+    "owner": "gvido-berzins"
+  },
+  "apps": [
+    {
+      "id": "com.plombus",
+      "slug": "plombus",
+      "name": "Plombus",
+      "summary": "Offline Latvian plant identification — 99 species, photo galleries, edibility, map.",
+      "description": "Field guide for Latvian plants: 99 species with 1.3k photos, edibility classes with preparation notes, gallery swipe (Tinder) triage, offline map and a searchable wiki. Fully offline.",
+      "icon": "icons/plombus.png",
+      "category": "nature",
+      "latest": {
+        "versionName": "0.3.1",
+        "versionCode": 9,
+        "apk": null,
+        "size": null,
+        "minSdk": 26,
+        "released": "2026-06-06",
+        "changelog": "Edibility moved to Lietojums tab; UI polish."
+      },
+      "history": [],
+      "website": "https://plumbus.vercel.app",
+      "source": "https://github.com/gvido-berzins/plombus"
+    },
+    {
+      "id": "com.aksess",
+      "slug": "aksess",
+      "name": "Aksess",
+      "summary": "Access-control field inventory — photo+GPS records, 20-manufacturer catalog with programming guides, map.",
+      "description": "Inventory installed access-control systems across the city: photo with EXIF GPS, manufacturer/model/features/placement. Catalog of 20 manufacturers and 121 devices with programming guides (default codes, commands, resets), offline map with colour-coded markers, searchable wiki. Fully offline.",
+      "icon": "icons/aksess.png",
+      "category": "work",
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 1,
+        "apk": null,
+        "size": null,
+        "minSdk": 26,
+        "released": "2026-06-09",
+        "changelog": "Initial release: inventory, enriched catalog, map, wiki."
+      },
+      "history": [],
+      "website": null,
+      "source": null
+    },
+    {
+      "id": "com.azguide.app",
+      "slug": "az-guide",
+      "name": "Azerbaijan Guide",
+      "summary": "Offline Azerbaijan travel guide — full guide, offline vector map, deep articles for 110 places, birds, plants and dishes.",
+      "description": "Complete offline travel guide for Azerbaijan: every section as its own page, an offline MapLibre vector map with colour-coded markers, bird and plant galleries, and a deep reading page (article + facts + tips) for every place, species and dish. Also available as a web PWA.",
+      "icon": "icons/az-guide.png",
+      "category": "travel",
+      "latest": {
+        "versionName": "1.0",
+        "versionCode": 1,
+        "apk": null,
+        "size": null,
+        "minSdk": 24,
+        "released": "2026-06-12",
+        "changelog": "Initial release: guide, offline map, galleries, reader pages."
+      },
+      "history": [],
+      "website": null,
+      "source": null
+    },
+    {
+      "id": "com.appz.barcode",
+      "slug": "barcode-scanner",
+      "name": "Barcode Scanner",
+      "summary": "Fast offline barcode/QR scanner (CameraX + ZXing).",
+      "description": "Minimal offline barcode and QR scanner built on CameraX and ZXing with scan history.",
+      "icon": "icons/barcode-scanner.png",
+      "category": "tools",
+      "latest": {
+        "versionName": "1.0",
+        "versionCode": 1,
+        "apk": null,
+        "size": null,
+        "minSdk": 26,
+        "released": "2026-05-31",
+        "changelog": "Initial release."
+      },
+      "history": [],
+      "website": null,
+      "source": null
+    },
+    {
+      "id": "com.appz.namedays",
+      "slug": "namedays-lv",
+      "name": "Namedays LV",
+      "summary": "Latvian name days calendar with daily reminders.",
+      "description": "Latvian vārda dienas: searchable calendar, today's names, and daily reminder notifications (Room + WorkManager). Fully offline.",
+      "icon": "icons/namedays-lv.png",
+      "category": "lifestyle",
+      "latest": {
+        "versionName": "1.0",
+        "versionCode": 1,
+        "apk": null,
+        "size": null,
+        "minSdk": 26,
+        "released": "2026-05-31",
+        "changelog": "Initial release."
+      },
+      "history": [],
+      "website": null,
+      "source": null
+    }
+  ]
+}

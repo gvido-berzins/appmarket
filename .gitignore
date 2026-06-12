@@ -1,0 +1,4 @@
+# APKs are hosted on GitHub Releases, not in git
+releases/
+node_modules/
+.DS_Store
