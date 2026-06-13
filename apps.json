@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12",
+  "updated": "2026-06-13",
   "market": {
     "name": "Gvido's Apps",
     "owner": "gvido-berzins"
@@ -16,11 +16,11 @@
       "latest": {
         "versionName": "0.3.1",
         "versionCode": 9,
-        "apk": null,
-        "size": null,
+        "apk": "releases/plombus/plombus-v0.3.1.apk",
+        "size": 83899352,
         "minSdk": 26,
-        "released": "2026-06-06",
-        "changelog": "Edibility moved to Lietojums tab; UI polish."
+        "released": "2026-06-13",
+        "changelog": "Edibility in Lietojums tab; UI polish."
       },
       "history": [],
       "website": "https://plumbus.vercel.app",
@@ -37,11 +37,11 @@
       "latest": {
         "versionName": "0.1.0",
         "versionCode": 1,
-        "apk": null,
-        "size": null,
+        "apk": "releases/aksess/aksess-v0.1.0.apk",
+        "size": 1548939,
         "minSdk": 26,
-        "released": "2026-06-09",
-        "changelog": "Initial release: inventory, enriched catalog, map, wiki."
+        "released": "2026-06-13",
+        "changelog": "Initial release: inventory, 20-manufacturer catalog, map, wiki."
       },
       "history": [],
       "website": null,
@@ -58,10 +58,10 @@
       "latest": {
         "versionName": "1.0",
         "versionCode": 1,
-        "apk": null,
-        "size": null,
+        "apk": "releases/az-guide/az-guide-v1.0.apk",
+        "size": 171214360,
         "minSdk": 24,
-        "released": "2026-06-12",
+        "released": "2026-06-13",
         "changelog": "Initial release: guide, offline map, galleries, reader pages."
       },
       "history": [],
@@ -79,11 +79,11 @@
       "latest": {
         "versionName": "1.0",
         "versionCode": 1,
-        "apk": null,
-        "size": null,
+        "apk": "releases/barcode-scanner/barcode-scanner-v1.0.apk",
+        "size": 2017579,
         "minSdk": 26,
-        "released": "2026-05-31",
-        "changelog": "Initial release."
+        "released": "2026-06-13",
+        "changelog": "Initial release: offline barcode/QR scanner."
       },
       "history": [],
       "website": null,
@@ -100,11 +100,11 @@
       "latest": {
         "versionName": "1.0",
         "versionCode": 1,
-        "apk": null,
-        "size": null,
+        "apk": "releases/namedays-lv/namedays-lv-v1.0.apk",
+        "size": 1409979,
         "minSdk": 26,
-        "released": "2026-05-31",
-        "changelog": "Initial release."
+        "released": "2026-06-13",
+        "changelog": "Initial release: Latvian name-days with daily reminders."
       },
       "history": [],
       "website": null,

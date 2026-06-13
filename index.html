@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0f1320">
+<title>Gvido's Apps</title>
+<style>
+:root{
+  --bg:#0f1320; --surface:#171c2e; --surface2:#1d2438; --border:#2a3350;
+  --text:#e7e9f0; --muted:#9aa3bd; --faint:#6b7494; --primary:#5b8cff; --accent:#2bd6a8;
+  --radius:14px; --shadow:0 8px 30px rgba(0,0,0,.35);
+  --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.55;min-height:100dvh}
+a{color:var(--primary);text-decoration:none}
+.wrap{max-width:1040px;margin:0 auto;padding:0 18px}
+header.site{position:sticky;top:0;z-index:10;background:color-mix(in oklab,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.site .wrap{display:flex;align-items:center;gap:12px;padding:14px 18px}
+.logo{font-weight:800;font-size:1.25rem;letter-spacing:-.02em}
+.logo span{color:var(--primary)}
+.tagline{color:var(--muted);font-size:.9rem;margin-left:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;padding:24px 0}
+.card{display:flex;gap:14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;cursor:pointer;transition:transform .12s,border-color .12s}
+.card:hover{transform:translateY(-2px);border-color:var(--primary)}
+.card .icon{width:60px;height:60px;border-radius:14px;flex-shrink:0;object-fit:cover;background:var(--surface2);display:grid;place-items:center;font-size:1.6rem;color:var(--faint)}
+.card .meta{min-width:0}
+.card h3{font-size:1.05rem;margin-bottom:2px}
+.card .sum{color:var(--muted);font-size:.86rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.badge{font-size:.72rem;color:var(--faint);background:var(--surface2);border-radius:999px;padding:2px 9px}
+.badge.cat{color:var(--accent)}
+.detail{display:none;padding:24px 0 64px}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--primary);font-weight:600;margin:18px 0 8px;cursor:pointer;background:none;border:none;font-size:1rem}
+.dhead{display:flex;gap:18px;align-items:center;margin-bottom:18px}
+.dhead .icon{width:84px;height:84px;border-radius:18px;object-fit:cover;background:var(--surface2);display:grid;place-items:center;font-size:2.2rem;color:var(--faint)}
+.dhead h1{font-size:1.6rem;letter-spacing:-.02em}
+.dhead .sum{color:var(--muted)}
+.dlrow{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:18px 0}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--primary);color:#fff;font-weight:700;padding:12px 22px;border-radius:12px;font-size:1rem}
+.btn[aria-disabled="true"]{background:var(--surface2);color:var(--faint);pointer-events:none}
+.btn.secondary{background:var(--surface);border:1px solid var(--border);color:var(--text)}
+.qr{background:#fff;padding:8px;border-radius:10px}
+.qr img{display:block;width:128px;height:128px}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin:16px 0;font-size:.9rem;max-width:520px}
+.facts dt{color:var(--muted);font-weight:600}
+.section-title{font-weight:700;margin:22px 0 8px;font-size:1.1rem}
+.desc{color:var(--text);max-width:680px}
+.chg{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:10px;padding:12px 16px;margin:8px 0;max-width:680px}
+.chg .ver{font-weight:700}
+.chg .date{color:var(--faint);font-size:.82rem;margin-left:8px}
+.chg p{color:var(--muted);font-size:.9rem;margin-top:4px}
+.empty{color:var(--faint);padding:40px 0;text-align:center}
+footer{color:var(--faint);font-size:.82rem;text-align:center;padding:30px 0;border-top:1px solid var(--border)}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <div class="logo">Gvido<span>·</span>Apps</div>
+  <div class="tagline" id="tagline">offline-first Android apps</div>
+</div></header>
+
+<main class="wrap">
+  <section id="listView"><div class="grid" id="grid"></div></section>
+  <section id="detailView" class="detail">
+    <button class="back" id="backBtn" type="button">‹ All apps</button>
+    <div id="detailBody"></div>
+  </section>
+</main>
+
+<footer class="wrap">Built by Gvido Bērziņš · APKs hosted on GitHub Releases · sideload to install</footer>
+
+<script>
+(function () {
+  "use strict";
+  var DATA = null;
+  var grid = document.getElementById("grid");
+  var listView = document.getElementById("listView");
+  var detailView = document.getElementById("detailView");
+  var detailBody = document.getElementById("detailBody");
+
+  function fmtSize(b) { return b ? (b / 1048576).toFixed(0) + " MB" : ""; }
+  function iconEl(app, cls) {
+    var img = document.createElement(app.icon ? "img" : "div");
+    img.className = "icon " + (cls || "");
+    if (app.icon) { img.src = app.icon; img.alt = app.name;
+      img.onerror = function () { var d = document.createElement("div"); d.className = img.className; d.textContent = app.name[0]; img.replaceWith(d); }; }
+    else img.textContent = app.name[0];
+    return img;
+  }
+
+  function card(app) {
+    var c = document.createElement("div"); c.className = "card";
+    c.addEventListener("click", function () { location.hash = "#app/" + app.slug; });
+    c.appendChild(iconEl(app));
+    var meta = document.createElement("div"); meta.className = "meta";
+    var h = document.createElement("h3"); h.textContent = app.name; meta.appendChild(h);
+    var s = document.createElement("div"); s.className = "sum"; s.textContent = app.summary; meta.appendChild(s);
+    var b = document.createElement("div"); b.className = "badges";
+    if (app.category) { var cat = document.createElement("span"); cat.className = "badge cat"; cat.textContent = app.category; b.appendChild(cat); }
+    var L = app.latest || {};
+    if (L.versionName) { var v = document.createElement("span"); v.className = "badge"; v.textContent = "v" + L.versionName; b.appendChild(v); }
+    if (L.size) { var sz = document.createElement("span"); sz.className = "badge"; sz.textContent = fmtSize(L.size); b.appendChild(sz); }
+    meta.appendChild(b);
+    c.appendChild(meta);
+    return c;
+  }
+
+  function renderList() {
+    listView.style.display = ""; detailView.style.display = "none";
+    grid.textContent = "";
+    (DATA.apps || []).forEach(function (a) { grid.appendChild(card(a)); });
+    document.title = (DATA.market && DATA.market.name) || "Apps";
+  }
+
+  function fact(dl, k, v) { if (!v) return; var dt = document.createElement("dt"); dt.textContent = k;
+    var dd = document.createElement("dd"); dd.textContent = v; dl.appendChild(dt); dl.appendChild(dd); }
+
+  function renderDetail(slug) {
+    var app = (DATA.apps || []).find(function (a) { return a.slug === slug; });
+    if (!app) { location.hash = ""; return; }
+    listView.style.display = "none"; detailView.style.display = "block";
+    detailBody.textContent = "";
+    var L = app.latest || {};
+
+    var head = document.createElement("div"); head.className = "dhead";
+    head.appendChild(iconEl(app));
+    var ht = document.createElement("div");
+    var h1 = document.createElement("h1"); h1.textContent = app.name; ht.appendChild(h1);
+    var sm = document.createElement("div"); sm.className = "sum"; sm.textContent = app.summary; ht.appendChild(sm);
+    head.appendChild(ht); detailBody.appendChild(head);
+
+    var row = document.createElement("div"); row.className = "dlrow";
+    var dlb = document.createElement("a"); dlb.className = "btn";
+    if (L.apk) { dlb.href = L.apk; dlb.setAttribute("download", ""); dlb.textContent = "⬇ Download APK v" + L.versionName; }
+    else { dlb.setAttribute("aria-disabled", "true"); dlb.textContent = "APK coming soon"; }
+    row.appendChild(dlb);
+    if (app.website) { var w = document.createElement("a"); w.className = "btn secondary"; w.href = app.website; w.target = "_blank"; w.rel = "noopener"; w.textContent = "Website"; row.appendChild(w); }
+    if (L.apk) {
+      var qr = document.createElement("div"); qr.className = "qr";
+      var qimg = document.createElement("img"); qimg.alt = "QR to download";
+      qimg.src = "https://api.qrserver.com/v1/create-qr-code/?size=128x128&data=" + encodeURIComponent(new URL(L.apk, location.href).href);
+      qr.appendChild(qimg); row.appendChild(qr);
+    }
+    detailBody.appendChild(row);
+
+    var facts = document.createElement("dl"); facts.className = "facts";
+    fact(facts, "Version", L.versionName ? "v" + L.versionName + " (" + L.versionCode + ")" : "");
+    fact(facts, "Size", fmtSize(L.size));
+    fact(facts, "Updated", L.released);
+    fact(facts, "Min Android", L.minSdk ? "API " + L.minSdk : "");
+    fact(facts, "Package", app.id);
+    fact(facts, "Category", app.category);
+    if (facts.children.length) detailBody.appendChild(facts);
+
+    var at = document.createElement("div"); at.className = "section-title"; at.textContent = "About"; detailBody.appendChild(at);
+    var desc = document.createElement("p"); desc.className = "desc"; desc.textContent = app.description || app.summary; detailBody.appendChild(desc);
+
+    var versions = [];
+    if (L.versionName) versions.push(L);
+    (app.history || []).forEach(function (h) { versions.push(h); });
+    if (versions.length) {
+      var ct = document.createElement("div"); ct.className = "section-title"; ct.textContent = "Changelog"; detailBody.appendChild(ct);
+      versions.forEach(function (v) {
+        var box = document.createElement("div"); box.className = "chg";
+        var head2 = document.createElement("div");
+        var ver = document.createElement("span"); ver.className = "ver"; ver.textContent = "v" + v.versionName; head2.appendChild(ver);
+        if (v.released) { var d = document.createElement("span"); d.className = "date"; d.textContent = v.released; head2.appendChild(d); }
+        box.appendChild(head2);
+        if (v.changelog) { var p = document.createElement("p"); p.textContent = v.changelog; box.appendChild(p); }
+        detailBody.appendChild(box);
+      });
+    }
+    window.scrollTo(0, 0);
+    document.title = app.name + " — " + ((DATA.market && DATA.market.name) || "Apps");
+  }
+
+  function route() {
+    if (!DATA) return;
+    var m = location.hash.match(/^#app\/(.+)$/);
+    if (m) renderDetail(m[1]); else renderList();
+  }
+
+  document.getElementById("backBtn").addEventListener("click", function () { location.hash = ""; });
+  window.addEventListener("hashchange", route);
+
+  fetch("apps.json").then(function (r) { return r.json(); }).then(function (d) {
+    DATA = d;
+    route();
+  }).catch(function () {
+    grid.textContent = ""; var e = document.createElement("div"); e.className = "empty";
+    e.textContent = "Could not load apps.json"; grid.appendChild(e);
+  });
+})();
+</script>
+</body>
+</html>

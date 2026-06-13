@@ -2,3 +2,4 @@
 releases/
 node_modules/
 .DS_Store
+fdroid/repo/*.apk
