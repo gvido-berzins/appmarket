@@ -159,6 +159,27 @@
       ],
       "website": null,
       "source": null
+    },
+    {
+      "id": "com.cleanup",
+      "slug": "cleanup",
+      "name": "Cleanup",
+      "summary": "Storage cleanup + organizer with on-device suggestions for freeing space.",
+      "description": "Scan your storage, get ranked suggestions (duplicates, leftover installers, screenshot piles, big old videos), organise messy folders into typed subfolders, and review the largest files and apps by size. Safe by design: removals go to a recycle bin first, nothing auto-deletes. Fully offline.",
+      "icon": "icons/cleanup.png",
+      "category": "tools",
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 1,
+        "apk": "releases/cleanup/cleanup-v0.1.0.apk",
+        "size": 961728,
+        "minSdk": 26,
+        "released": "2026-06-13",
+        "changelog": "Initial release: scan, suggestions, organise, apps, recycle bin."
+      },
+      "history": [],
+      "website": null,
+      "source": null
     }
   ]
 }
