@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1781331302030,
+    "timestamp": 1781332008437,
     "version": 20002,
     "name": "Gvido's Apps",
     "description": "Personal app repository.",
@@ -22,10 +22,10 @@
       ],
       "license": "Unknown",
       "webSite": "https://plumbus.vercel.app",
-      "added": 1781331302030,
-      "lastUpdated": 1781331302030,
-      "suggestedVersionName": "0.3.1",
-      "suggestedVersionCode": "9"
+      "added": 1781332008437,
+      "lastUpdated": 1781332008437,
+      "suggestedVersionName": "0.3.2",
+      "suggestedVersionCode": "10"
     },
     {
       "packageName": "com.aksess",
@@ -37,10 +37,10 @@
       ],
       "license": "Unknown",
       "webSite": "",
-      "added": 1781331302030,
-      "lastUpdated": 1781331302030,
-      "suggestedVersionName": "0.1.0",
-      "suggestedVersionCode": "1"
+      "added": 1781332008437,
+      "lastUpdated": 1781332008437,
+      "suggestedVersionName": "0.1.1",
+      "suggestedVersionCode": "2"
     },
     {
       "packageName": "com.azguide.app",
@@ -52,10 +52,10 @@
       ],
       "license": "Unknown",
       "webSite": "",
-      "added": 1781331302030,
-      "lastUpdated": 1781331302030,
-      "suggestedVersionName": "1.0",
-      "suggestedVersionCode": "1"
+      "added": 1781332008437,
+      "lastUpdated": 1781332008437,
+      "suggestedVersionName": "1.1",
+      "suggestedVersionCode": "2"
     },
     {
       "packageName": "com.appz.barcode",
@@ -67,10 +67,10 @@
       ],
       "license": "Unknown",
       "webSite": "",
-      "added": 1781331302030,
-      "lastUpdated": 1781331302030,
-      "suggestedVersionName": "1.0",
-      "suggestedVersionCode": "1"
+      "added": 1781332008437,
+      "lastUpdated": 1781332008437,
+      "suggestedVersionName": "1.1",
+      "suggestedVersionCode": "2"
     },
     {
       "packageName": "com.appz.namedays",
@@ -82,71 +82,121 @@
       ],
       "license": "Unknown",
       "webSite": "",
-      "added": 1781331302030,
-      "lastUpdated": 1781331302030,
-      "suggestedVersionName": "1.0",
-      "suggestedVersionCode": "1"
+      "added": 1781332008437,
+      "lastUpdated": 1781332008437,
+      "suggestedVersionName": "1.1",
+      "suggestedVersionCode": "2"
     }
   ],
   "packages": {
     "com.plombus": [
       {
         "apkName": "plombus-v0.3.1.apk",
-        "versionName": "0.3.1",
-        "versionCode": 9,
+        "versionName": "0.3.2",
+        "versionCode": 10,
         "size": 83899352,
         "hash": "72372d8322ecd561f8fb6d86196d59ec2bc996d947c8a9c48bdc0f2376c2e0ec",
         "hashType": "sha256",
         "minSdkVersion": 26,
-        "added": 1781331302030
+        "added": 1781332008437
+      },
+      {
+        "apkName": "plombus-v0.3.2.apk",
+        "versionName": "0.3.2",
+        "versionCode": 10,
+        "size": 83899352,
+        "hash": "8fdf1550dfed3d4baf71b14684caeea0e68b88dd57765dc36b453214774adc1b",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "added": 1781332008437
       }
     ],
     "com.aksess": [
       {
         "apkName": "aksess-v0.1.0.apk",
-        "versionName": "0.1.0",
-        "versionCode": 1,
+        "versionName": "0.1.1",
+        "versionCode": 2,
         "size": 1548939,
         "hash": "85c47ed617808902b09510719cc31f0d27af3680cbc1ab441fab00dfc604d0bc",
         "hashType": "sha256",
         "minSdkVersion": 26,
-        "added": 1781331302030
+        "added": 1781332008437
+      },
+      {
+        "apkName": "aksess-v0.1.1.apk",
+        "versionName": "0.1.1",
+        "versionCode": 2,
+        "size": 1548939,
+        "hash": "68590bef5d3ba8b3c9012d8069594a1c3cdaa9b1704100b0ca6455d3f21ebf55",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "added": 1781332008437
       }
     ],
     "com.azguide.app": [
       {
         "apkName": "az-guide-v1.0.apk",
-        "versionName": "1.0",
-        "versionCode": 1,
+        "versionName": "1.1",
+        "versionCode": 2,
         "size": 171214360,
         "hash": "87488faa119d8318abf40c8bf2e8803e66f08e1d2ec8c9373d667c64d73efaad",
         "hashType": "sha256",
         "minSdkVersion": 24,
-        "added": 1781331302030
+        "added": 1781332008437
+      },
+      {
+        "apkName": "az-guide-v1.1.apk",
+        "versionName": "1.1",
+        "versionCode": 2,
+        "size": 171214953,
+        "hash": "9f41a09a2657413337dd87c0d9bf7b433373472999bc8c293e84339a640dc5c1",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "added": 1781332008437
       }
     ],
     "com.appz.barcode": [
       {
         "apkName": "barcode-scanner-v1.0.apk",
-        "versionName": "1.0",
-        "versionCode": 1,
+        "versionName": "1.1",
+        "versionCode": 2,
         "size": 2017579,
         "hash": "23b6a04cd991c248b135faf8ae8d8ce87c85d35de59bade06b9e38ad4420cf5a",
         "hashType": "sha256",
         "minSdkVersion": 26,
-        "added": 1781331302030
+        "added": 1781332008437
+      },
+      {
+        "apkName": "barcode-scanner-v1.1.apk",
+        "versionName": "1.1",
+        "versionCode": 2,
+        "size": 2017603,
+        "hash": "27ef587afd6d2e838466708a3590902592ed93bc0855ec395567c1807cc9988b",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "added": 1781332008437
       }
     ],
     "com.appz.namedays": [
       {
         "apkName": "namedays-lv-v1.0.apk",
-        "versionName": "1.0",
-        "versionCode": 1,
+        "versionName": "1.1",
+        "versionCode": 2,
         "size": 1409979,
         "hash": "c1ec2c3017d420cc7b7102c06d4cc4ebff6abaf2a96b67c21c07bbdd8c0bb9e6",
         "hashType": "sha256",
         "minSdkVersion": 26,
-        "added": 1781331302030
+        "added": 1781332008437
+      },
+      {
+        "apkName": "namedays-lv-v1.1.apk",
+        "versionName": "1.1",
+        "versionCode": 2,
+        "size": 1410007,
+        "hash": "73e016f9ee7940e84291d14ff3acb268d042bde7801062a2a572af98ba8b735c",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "added": 1781332008437
       }
     ]
   }
