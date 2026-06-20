@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13",
+  "updated": "2026-06-20",
   "market": {
     "name": "Gvido's Apps",
     "owner": "gvido-berzins"
@@ -16,7 +16,7 @@
       "latest": {
         "versionName": "0.3.2",
         "versionCode": 10,
-        "apk": "releases/plombus/plombus-v0.3.2.apk",
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/plombus-v0.3.2/plombus-v0.3.2.apk",
         "size": 83899352,
         "minSdk": 26,
         "released": "2026-06-13",
@@ -26,7 +26,7 @@
         {
           "versionName": "0.3.1",
           "versionCode": 9,
-          "apk": "releases/plombus/plombus-v0.3.1.apk",
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/plombus-v0.3.1/plombus-v0.3.1.apk",
           "size": 83899352,
           "minSdk": 26,
           "released": "2026-06-13",
@@ -40,24 +40,33 @@
       "id": "com.aksess",
       "slug": "aksess",
       "name": "Aksess",
-      "summary": "Access-control field inventory — photo+GPS records, 20-manufacturer catalog with programming guides, map.",
-      "description": "Inventory installed access-control systems across the city: photo with EXIF GPS, manufacturer/model/features/placement. Catalog of 20 manufacturers and 121 devices with programming guides (default codes, commands, resets), offline map with colour-coded markers, searchable wiki. Fully offline.",
+      "summary": "Access-control field inventory — photo+GPS records, 28-manufacturer catalog with programming guides, similar-brand/clone links, map.",
+      "description": "Inventory installed access-control systems across the city: photo with EXIF GPS, manufacturer/model/features/placement. Catalog of 28 manufacturers and 145 devices with programming guides (default codes, commands, resets) — premium readers, no-brand Chinese keypad clones (Sebury/ATLO/generic) and CIS apartment domofons (Eltis, VIZIT, Cyfral, Metakom, Rainmann). Similar-brand/clone links, a Latvian distributor directory, offline map with colour-coded markers, searchable wiki. Fully offline.",
       "icon": "icons/aksess.png",
       "category": "work",
       "latest": {
-        "versionName": "0.1.1",
-        "versionCode": 2,
-        "apk": "releases/aksess/aksess-v0.1.1.apk",
-        "size": 1548939,
+        "versionName": "0.2.0",
+        "versionCode": 200,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.2.0/aksess-v0.2.0.apk",
+        "size": 1563903,
         "minSdk": 26,
-        "released": "2026-06-13",
-        "changelog": "Added in-app update notifications."
+        "released": "2026-06-20",
+        "changelog": "Catalog expanded to 28 manufacturers / 145 devices: added no-brand keypad clones (Sebury/ATLO/generic/YLI) and CIS domofons (Eltis, VIZIT, Cyfral, Metakom, Rainmann) with verified service codes. New similar-brand/clone links, tier badges, and a Latvian distributor & service directory."
       },
       "history": [
         {
+          "versionName": "0.1.1",
+          "versionCode": 2,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.1.1/aksess-v0.1.1.apk",
+          "size": 1548939,
+          "minSdk": 26,
+          "released": "2026-06-13",
+          "changelog": "Added in-app update notifications."
+        },
+        {
           "versionName": "0.1.0",
           "versionCode": 1,
-          "apk": "releases/aksess/aksess-v0.1.0.apk",
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.1.0/aksess-v0.1.0.apk",
           "size": 1548939,
           "minSdk": 26,
           "released": "2026-06-13",
@@ -78,7 +87,7 @@
       "latest": {
         "versionName": "1.1",
         "versionCode": 2,
-        "apk": "releases/az-guide/az-guide-v1.1.apk",
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/az-guide-v1.1/az-guide-v1.1.apk",
         "size": 171214953,
         "minSdk": 24,
         "released": "2026-06-13",
@@ -88,7 +97,7 @@
         {
           "versionName": "1.0",
           "versionCode": 1,
-          "apk": "releases/az-guide/az-guide-v1.0.apk",
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/az-guide-v1.0/az-guide-v1.0.apk",
           "size": 171214360,
           "minSdk": 24,
           "released": "2026-06-13",
@@ -109,7 +118,7 @@
       "latest": {
         "versionName": "1.1",
         "versionCode": 2,
-        "apk": "releases/barcode-scanner/barcode-scanner-v1.1.apk",
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/barcode-scanner-v1.1/barcode-scanner-v1.1.apk",
         "size": 2017603,
         "minSdk": 26,
         "released": "2026-06-13",
@@ -119,7 +128,7 @@
         {
           "versionName": "1.0",
           "versionCode": 1,
-          "apk": "releases/barcode-scanner/barcode-scanner-v1.0.apk",
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/barcode-scanner-v1.0/barcode-scanner-v1.0.apk",
           "size": 2017579,
           "minSdk": 26,
           "released": "2026-06-13",
@@ -140,7 +149,7 @@
       "latest": {
         "versionName": "1.1",
         "versionCode": 2,
-        "apk": "releases/namedays-lv/namedays-lv-v1.1.apk",
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/namedays-lv-v1.1/namedays-lv-v1.1.apk",
         "size": 1410007,
         "minSdk": 26,
         "released": "2026-06-13",
@@ -150,7 +159,7 @@
         {
           "versionName": "1.0",
           "versionCode": 1,
-          "apk": "releases/namedays-lv/namedays-lv-v1.0.apk",
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/namedays-lv-v1.0/namedays-lv-v1.0.apk",
           "size": 1409979,
           "minSdk": 26,
           "released": "2026-06-13",
@@ -171,7 +180,7 @@
       "latest": {
         "versionName": "0.1.0",
         "versionCode": 1,
-        "apk": "releases/cleanup/cleanup-v0.1.0.apk",
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/cleanup-v0.1.0/cleanup-v0.1.0.apk",
         "size": 961728,
         "minSdk": 26,
         "released": "2026-06-13",
