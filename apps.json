@@ -315,17 +315,27 @@
       "description": "The phone client for this app store. Browse every app, see which are installed and which have updates, and install or update with one tap. Offline-cached catalog, version history, changelogs, and an in-app diagnostics log. Sideload store — updates are one-tap (Android shows the install prompt).",
       "icon": "icons/appstore.png",
       "category": "tools",
-      "history": [],
+      "history": [
+        {
+          "versionName": "0.1.0",
+          "versionCode": 100,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/appstore-v0.1.0/appstore-v0.1.0.apk",
+          "size": 1226250,
+          "minSdk": 26,
+          "released": "2026-06-20",
+          "changelog": "Initial release: browse, install and update all apps from one screen; offline catalog cache; in-app diagnostics log."
+        }
+      ],
       "website": null,
       "source": null,
       "latest": {
-        "versionName": "0.1.0",
-        "versionCode": 100,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/appstore-v0.1.0/appstore-v0.1.0.apk",
-        "size": 1226250,
+        "versionName": "0.1.1",
+        "versionCode": 101,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/appstore-v0.1.1/appstore-v0.1.1.apk",
+        "size": 1226246,
         "minSdk": 26,
         "released": "2026-06-20",
-        "changelog": "Initial release: browse, install and update all apps from one screen; offline catalog cache; in-app diagnostics log."
+        "changelog": "Reverse-engineering prevention: R8 code shrinking + obfuscation."
       }
     }
   ]
