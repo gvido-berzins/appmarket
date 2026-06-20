@@ -251,7 +251,16 @@
       "category": "tools",
       "history": [],
       "website": null,
-      "source": null
+      "source": null,
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 100,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/appstore-v0.1.0/appstore-v0.1.0.apk",
+        "size": 1226250,
+        "minSdk": 26,
+        "released": "2026-06-20",
+        "changelog": "Initial release: browse, install and update all apps from one screen; offline catalog cache; in-app diagnostics log."
+      }
     }
   ]
 }
