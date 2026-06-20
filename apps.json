@@ -376,17 +376,27 @@
       "description": "An offline OWASP Application Security Verification Standard (ASVS 5.0.0) checklist for security assessments. Browse all 345 requirements across 17 chapters, filter by assurance level (L1/L2/L3), tick each off as Pass/Fail/N-A/Pending with progress tracking, search the full text, and export your results as JSON or CSV to finish the report on desktop. Fully offline.",
       "icon": "icons/asvs.png",
       "category": "tools",
-      "history": [],
+      "history": [
+        {
+          "versionName": "0.1.0",
+          "versionCode": 100,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/asvs-v0.1.0/asvs-v0.1.0.apk",
+          "size": 1326667,
+          "minSdk": 26,
+          "released": "2026-06-20",
+          "changelog": "Initial release: offline OWASP ASVS 5.0.0 checklist — 345 requirements, L1/L2/L3 filter, Pass/Fail/N-A tick-off, progress, search, JSON/CSV export."
+        }
+      ],
       "website": null,
       "source": null,
       "latest": {
-        "versionName": "0.1.0",
-        "versionCode": 100,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/asvs-v0.1.0/asvs-v0.1.0.apk",
-        "size": 1326667,
+        "versionName": "0.1.1",
+        "versionCode": 101,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/asvs-v0.1.1/asvs-v0.1.1.apk",
+        "size": 1326663,
         "minSdk": 26,
         "released": "2026-06-20",
-        "changelog": "Initial release: offline OWASP ASVS 5.0.0 checklist — 345 requirements, L1/L2/L3 filter, Pass/Fail/N-A tick-off, progress, search, JSON/CSV export."
+        "changelog": "Reverse-engineering prevention: R8 code shrinking + obfuscation (Room keeps; org.json parsing unaffected)."
       }
     }
   ]
