@@ -355,17 +355,27 @@
       "description": "Offline bumblebee identification app for field naturalists. A visual ID guide and searchable species guide help you identify bees; register sightings with species, GPS coordinates, confidence, photos and notes into a local on-device database, then browse your saved findings. Fully offline, no account.",
       "icon": "icons/bombus.png",
       "category": "nature",
-      "history": [],
+      "history": [
+        {
+          "versionName": "1.0.1",
+          "versionCode": 2,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/bombus-v1.0.1/bombus-v1.0.1.apk",
+          "size": 26053010,
+          "minSdk": 21,
+          "released": "2026-06-20",
+          "changelog": "Initial release: bumblebee ID guide + log sightings (species, GPS, photos, notes) to an offline database, with a saved-findings list."
+        }
+      ],
       "website": null,
       "source": null,
       "latest": {
-        "versionName": "1.0.1",
-        "versionCode": 2,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/bombus-v1.0.1/bombus-v1.0.1.apk",
-        "size": 26053010,
+        "versionName": "1.0.2",
+        "versionCode": 3,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/bombus-v1.0.2/bombus-v1.0.2.apk",
+        "size": 25155642,
         "minSdk": 21,
         "released": "2026-06-20",
-        "changelog": "Initial release: bumblebee ID guide + log sightings (species, GPS, photos, notes) to an offline database, with a saved-findings list."
+        "changelog": "Reverse-engineering prevention: R8 shrinking + Dart obfuscation."
       }
     },
     {
