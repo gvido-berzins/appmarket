@@ -183,15 +183,24 @@
       "icon": "icons/namedays-lv.png",
       "category": "lifestyle",
       "latest": {
-        "versionName": "1.2",
-        "versionCode": 10200,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/namedays-lv-v1.2/namedays-lv-v1.2.apk",
-        "size": 1410007,
+        "versionName": "1.3",
+        "versionCode": 10300,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/namedays-lv-v1.3/namedays-lv-v1.3.apk",
+        "size": 1410023,
         "minSdk": 26,
         "released": "2026-06-20",
-        "changelog": "Security hardening: disable cloud backup (allowBackup=false)."
+        "changelog": "Fix exact-alarm permission lint (scope SCHEDULE_EXACT_ALARM to API <=32); retains prior security hardening (allowBackup=false)."
       },
       "history": [
+        {
+          "versionName": "1.2",
+          "versionCode": 10200,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/namedays-lv-v1.2/namedays-lv-v1.2.apk",
+          "size": 1410007,
+          "minSdk": 26,
+          "released": "2026-06-20",
+          "changelog": "Security hardening: disable cloud backup (allowBackup=false)."
+        },
         {
           "versionName": "1.1",
           "versionCode": 2,
@@ -358,6 +367,18 @@
         "released": "2026-06-20",
         "changelog": "Initial release: bumblebee ID guide + log sightings (species, GPS, photos, notes) to an offline database, with a saved-findings list."
       }
+    },
+    {
+      "id": "com.appz.asvs",
+      "slug": "asvs",
+      "name": "ASVS Checklist",
+      "summary": "Offline OWASP ASVS pentest checklist — 345 requirements, L1/L2/L3, tick-off + export.",
+      "description": "An offline OWASP Application Security Verification Standard (ASVS 5.0.0) checklist for security assessments. Browse all 345 requirements across 17 chapters, filter by assurance level (L1/L2/L3), tick each off as Pass/Fail/N-A/Pending with progress tracking, search the full text, and export your results as JSON or CSV to finish the report on desktop. Fully offline.",
+      "icon": "icons/asvs.png",
+      "category": "tools",
+      "history": [],
+      "website": null,
+      "source": null
     }
   ]
 }
