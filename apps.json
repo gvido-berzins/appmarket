@@ -14,15 +14,24 @@
       "icon": "icons/plombus.png",
       "category": "nature",
       "latest": {
-        "versionName": "0.3.2",
-        "versionCode": 10,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/plombus-v0.3.2/plombus-v0.3.2.apk",
+        "versionName": "0.3.3",
+        "versionCode": 303,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/plombus-v0.3.3/plombus-v0.3.3.apk",
         "size": 83899352,
         "minSdk": 26,
-        "released": "2026-06-13",
-        "changelog": "Added in-app update notifications."
+        "released": "2026-06-20",
+        "changelog": "Security hardening: disable cloud backup (allowBackup=false)."
       },
       "history": [
+        {
+          "versionName": "0.3.2",
+          "versionCode": 10,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/plombus-v0.3.2/plombus-v0.3.2.apk",
+          "size": 83899352,
+          "minSdk": 26,
+          "released": "2026-06-13",
+          "changelog": "Added in-app update notifications."
+        },
         {
           "versionName": "0.3.1",
           "versionCode": 9,
