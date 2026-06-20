@@ -264,6 +264,15 @@
       "category": "maps",
       "history": [
         {
+          "versionName": "1.0.1",
+          "versionCode": 2,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/gob-v1.0.1/gob-v1.0.1.apk",
+          "size": 20741208,
+          "minSdk": 21,
+          "released": "2026-06-20",
+          "changelog": "Reverse-engineering prevention: R8 shrinking + Dart obfuscation. Fixed app name to Cloudberry Latvia Markers."
+        },
+        {
           "versionName": "1.0.0",
           "versionCode": 1,
           "apk": "https://github.com/gvido-berzins/appmarket/releases/download/gob-v1.0.0/gob-v1.0.0.apk",
@@ -276,13 +285,13 @@
       "website": null,
       "source": null,
       "latest": {
-        "versionName": "1.0.1",
-        "versionCode": 2,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/gob-v1.0.1/gob-v1.0.1.apk",
-        "size": 20741208,
+        "versionName": "1.0.2",
+        "versionCode": 3,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/gob-v1.0.2/gob-v1.0.2.apk",
+        "size": 20741232,
         "minSdk": 21,
         "released": "2026-06-20",
-        "changelog": "Reverse-engineering prevention: R8 shrinking + Dart obfuscation. Fixed app name to Cloudberry Latvia Markers."
+        "changelog": "Security hardening: disable cloud backup (allowBackup=false)."
       }
     },
     {
