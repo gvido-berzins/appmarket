@@ -174,15 +174,24 @@
       "icon": "icons/namedays-lv.png",
       "category": "lifestyle",
       "latest": {
-        "versionName": "1.1",
-        "versionCode": 2,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/namedays-lv-v1.1/namedays-lv-v1.1.apk",
+        "versionName": "1.2",
+        "versionCode": 10200,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/namedays-lv-v1.2/namedays-lv-v1.2.apk",
         "size": 1410007,
         "minSdk": 26,
-        "released": "2026-06-13",
-        "changelog": "Added in-app update notifications."
+        "released": "2026-06-20",
+        "changelog": "Security hardening: disable cloud backup (allowBackup=false)."
       },
       "history": [
+        {
+          "versionName": "1.1",
+          "versionCode": 2,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/namedays-lv-v1.1/namedays-lv-v1.1.apk",
+          "size": 1410007,
+          "minSdk": 26,
+          "released": "2026-06-13",
+          "changelog": "Added in-app update notifications."
+        },
         {
           "versionName": "1.0",
           "versionCode": 1,
