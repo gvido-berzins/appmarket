@@ -3,3 +3,18 @@ releases/
 node_modules/
 .DS_Store
 fdroid/repo/*.apk
+
+# Secrets / signing (never commit)
+keystore.properties
+key.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env*.local
+# IDE / misc
+.idea/
+.vscode/
+*.iml
+*.apk
