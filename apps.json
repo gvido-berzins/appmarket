@@ -274,17 +274,27 @@
       "description": "WayPay copies waypoint .kmz files (e.g. routes drawn at waypointmap.com) into DJI Fly's protected app folder using Shizuku, replacing the usual PC+adb workflow with about one tap. Early, experimental personal utility: import happy-path only, requires Shizuku installed and running. Use at your own risk.",
       "icon": "icons/waypay.png",
       "category": "tools",
-      "history": [],
+      "history": [
+        {
+          "versionName": "0.1.0",
+          "versionCode": 100,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/waypay-v0.1.0/waypay-v0.1.0.apk",
+          "size": 2191888,
+          "minSdk": 30,
+          "released": "2026-06-20",
+          "changelog": "Initial early-preview: import DJI .kmz waypoint files into DJI Fly via Shizuku (import happy-path only)."
+        }
+      ],
       "website": null,
       "source": null,
       "latest": {
-        "versionName": "0.1.0",
-        "versionCode": 100,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/waypay-v0.1.0/waypay-v0.1.0.apk",
-        "size": 2191888,
+        "versionName": "0.1.1",
+        "versionCode": 101,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/waypay-v0.1.1/waypay-v0.1.1.apk",
+        "size": 1850724,
         "minSdk": 30,
         "released": "2026-06-20",
-        "changelog": "Initial early-preview: import DJI .kmz waypoint files into DJI Fly via Shizuku (import happy-path only)."
+        "changelog": "Security: enable R8 code shrinking + obfuscation (reverse-engineering prevention) with targeted Shizuku/AIDL keeps."
       }
     },
     {
