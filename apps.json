@@ -196,15 +196,25 @@
       "icon": "icons/cleanup.png",
       "category": "tools",
       "latest": {
-        "versionName": "0.1.0",
-        "versionCode": 1,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/cleanup-v0.1.0/cleanup-v0.1.0.apk",
+        "versionName": "0.1.1",
+        "versionCode": 101,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/cleanup-v0.1.1/cleanup-v0.1.1.apk",
         "size": 961728,
         "minSdk": 26,
-        "released": "2026-06-13",
-        "changelog": "Initial release: scan, suggestions, organise, apps, recycle bin."
+        "released": "2026-06-20",
+        "changelog": "Security hardening: R8/ProGuard obfuscation now applied in release (keep-rules added); disable cloud backup (allowBackup=false)."
       },
-      "history": [],
+      "history": [
+        {
+          "versionName": "0.1.0",
+          "versionCode": 1,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/cleanup-v0.1.0/cleanup-v0.1.0.apk",
+          "size": 961728,
+          "minSdk": 26,
+          "released": "2026-06-13",
+          "changelog": "Initial release: scan, suggestions, organise, apps, recycle bin."
+        }
+      ],
       "website": null,
       "source": null
     },
