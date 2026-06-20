@@ -1,9 +1,22 @@
 # appmarket — personal Android app marketplace
 
 A registry + publish pipeline for all my offline Android apps (plombus, aksess,
-az-guide, barcode-scanner, namedays-lv, …). The website (to be built) renders
+az-guide, barcode-scanner, namedays-lv, cleanup). The website renders
 `apps.json`; APKs are hosted as GitHub Release assets; publishing an update is
 one command.
+
+## Live (deployed 2026-06-20)
+
+- **Website:** https://gvido-berzins.github.io/appmarket/ (GitHub Pages, main/root)
+- **Update feed:** https://raw.githubusercontent.com/gvido-berzins/appmarket/main/apps.json
+- **APKs:** GitHub Releases on this repo (tags `<slug>-v<ver>`)
+- **Update delivery:** in-app banner — each app checks the feed on launch, compares
+  `versionCode`, and shows an "Update available" dialog (with changelog) that opens the
+  release APK. Android shows its install prompt (signatures match → installs over the top).
+  *(No silent/background auto-update: Android reserves that for Play Store / privileged
+  stores. F-Droid-client delivery remains a future option — the repo index data exists.)*
+- **Versioning (all apps):** `versionName` = semver; `versionCode` derived in Gradle as
+  `MAJOR*10000 + MINOR*100 + PATCH` so it always increases. Only ever edit `versionName`.
 
 ## Architecture — one source of truth
 
@@ -80,9 +93,10 @@ Static or Next.js on Vercel, same repo (`web/`):
 ## Roadmap
 
 - [x] Phase 0 — this repo: registry schema, real app entries, publish script
-- [ ] Phase 1 — release keystore; add signingConfig to all 5 apps; build
-      release APKs; `publish.py` each (entries get real APK files)
-- [ ] Phase 2 — GitHub remote + `--github` publishing; Vercel project for web/
-- [ ] Phase 3 — UpdateChecker snippet in each app; QR codes + screenshots
-- [ ] Phase 4 (optional) — F-Droid-compatible repo index so users can add the
-      market to the F-Droid client for automatic updates
+- [x] Phase 1 — release keystore (`~/keys/appmarket.jks`); signingConfig in all apps;
+      release APKs published
+- [x] Phase 2 — GitHub remote + `--github` publishing; **GitHub Pages** for the site
+      (chose Pages over Vercel — same repo, no extra account)
+- [x] Phase 3 — UpdateChecker in each app (now shows changelog); deterministic versioning
+- [ ] Phase 4 (optional) — sign the F-Droid repo index (`fdroidserver`) so the market can
+      be added to the F-Droid client; QR codes + screenshots on the site
