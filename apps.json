@@ -378,7 +378,16 @@
       "category": "tools",
       "history": [],
       "website": null,
-      "source": null
+      "source": null,
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 100,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/asvs-v0.1.0/asvs-v0.1.0.apk",
+        "size": 1326667,
+        "minSdk": 26,
+        "released": "2026-06-20",
+        "changelog": "Initial release: offline OWASP ASVS 5.0.0 checklist — 345 requirements, L1/L2/L3 filter, Pass/Fail/N-A tick-off, progress, search, JSON/CSV export."
+      }
     }
   ]
 }
