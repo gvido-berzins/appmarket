@@ -253,17 +253,27 @@
       "description": "Interactive map app for exploring locations across Latvia. Browse points on an OpenStreetMap view or in a searchable list sorted by distance from you, then tap any marker to see its coordinates and open turn-by-turn directions. Built for finding and reaching cloudberry and other nature/foraging spots.",
       "icon": "icons/gob.png",
       "category": "maps",
-      "history": [],
+      "history": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 1,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/gob-v1.0.0/gob-v1.0.0.apk",
+          "size": 21701100,
+          "minSdk": 21,
+          "released": "2026-06-20",
+          "changelog": "Initial release: offline marker map of Latvia with search, distance sorting, and tap-to-navigate."
+        }
+      ],
       "website": null,
       "source": null,
       "latest": {
-        "versionName": "1.0.0",
-        "versionCode": 1,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/gob-v1.0.0/gob-v1.0.0.apk",
-        "size": 21701100,
+        "versionName": "1.0.1",
+        "versionCode": 2,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/gob-v1.0.1/gob-v1.0.1.apk",
+        "size": 20741208,
         "minSdk": 21,
         "released": "2026-06-20",
-        "changelog": "Initial release: offline marker map of Latvia with search, distance sorting, and tap-to-navigate."
+        "changelog": "Reverse-engineering prevention: R8 shrinking + Dart obfuscation. Fixed app name to Cloudberry Latvia Markers."
       }
     },
     {
