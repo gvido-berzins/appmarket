@@ -344,6 +344,15 @@
       "category": "tools",
       "history": [
         {
+          "versionName": "0.1.1",
+          "versionCode": 101,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/appstore-v0.1.1/appstore-v0.1.1.apk",
+          "size": 1226246,
+          "minSdk": 26,
+          "released": "2026-06-20",
+          "changelog": "Reverse-engineering prevention: R8 code shrinking + obfuscation."
+        },
+        {
           "versionName": "0.1.0",
           "versionCode": 100,
           "apk": "https://github.com/gvido-berzins/appmarket/releases/download/appstore-v0.1.0/appstore-v0.1.0.apk",
@@ -356,13 +365,13 @@
       "website": null,
       "source": null,
       "latest": {
-        "versionName": "0.1.1",
-        "versionCode": 101,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/appstore-v0.1.1/appstore-v0.1.1.apk",
-        "size": 1226246,
+        "versionName": "0.1.2",
+        "versionCode": 102,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/appstore-v0.1.2/appstore-v0.1.2.apk",
+        "size": 1226250,
         "minSdk": 26,
         "released": "2026-06-20",
-        "changelog": "Reverse-engineering prevention: R8 code shrinking + obfuscation."
+        "changelog": "Security hardening: disable cloud backup (allowBackup=false)."
       }
     },
     {
