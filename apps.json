@@ -45,15 +45,24 @@
       "icon": "icons/aksess.png",
       "category": "work",
       "latest": {
-        "versionName": "0.2.1",
-        "versionCode": 201,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.2.1/aksess-v0.2.1.apk",
+        "versionName": "0.2.2",
+        "versionCode": 202,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.2.2/aksess-v0.2.2.apk",
         "size": 1784247,
         "minSdk": 26,
         "released": "2026-06-20",
-        "changelog": "Fix: add R8/ProGuard keep-rules so the expanded catalog (kotlinx.serialization) is preserved in the optimized release build. Supersedes 0.2.0."
+        "changelog": "Security hardening: disable cloud backup of inventory data (allowBackup=false)."
       },
       "history": [
+        {
+          "versionName": "0.2.1",
+          "versionCode": 201,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.2.1/aksess-v0.2.1.apk",
+          "size": 1784247,
+          "minSdk": 26,
+          "released": "2026-06-20",
+          "changelog": "Fix: add R8/ProGuard keep-rules so the expanded catalog (kotlinx.serialization) is preserved in the optimized release build. Supersedes 0.2.0."
+        },
         {
           "versionName": "0.2.0",
           "versionCode": 200,
