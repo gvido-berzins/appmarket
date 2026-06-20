@@ -209,7 +209,16 @@
       "category": "maps",
       "history": [],
       "website": null,
-      "source": null
+      "source": null,
+      "latest": {
+        "versionName": "1.0.0",
+        "versionCode": 1,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/gob-v1.0.0/gob-v1.0.0.apk",
+        "size": 21701100,
+        "minSdk": 21,
+        "released": "2026-06-20",
+        "changelog": "Initial release: offline marker map of Latvia with search, distance sorting, and tap-to-navigate."
+      }
     },
     {
       "id": "io.cny.waypay",
