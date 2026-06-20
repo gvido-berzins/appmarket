@@ -45,15 +45,24 @@
       "icon": "icons/aksess.png",
       "category": "work",
       "latest": {
-        "versionName": "0.2.0",
-        "versionCode": 200,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.2.0/aksess-v0.2.0.apk",
-        "size": 1563903,
+        "versionName": "0.2.1",
+        "versionCode": 201,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.2.1/aksess-v0.2.1.apk",
+        "size": 1784247,
         "minSdk": 26,
         "released": "2026-06-20",
-        "changelog": "Catalog expanded to 28 manufacturers / 145 devices: added no-brand keypad clones (Sebury/ATLO/generic/YLI) and CIS domofons (Eltis, VIZIT, Cyfral, Metakom, Rainmann) with verified service codes. New similar-brand/clone links, tier badges, and a Latvian distributor & service directory."
+        "changelog": "Fix: add R8/ProGuard keep-rules so the expanded catalog (kotlinx.serialization) is preserved in the optimized release build. Supersedes 0.2.0."
       },
       "history": [
+        {
+          "versionName": "0.2.0",
+          "versionCode": 200,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.2.0/aksess-v0.2.0.apk",
+          "size": 1563903,
+          "minSdk": 26,
+          "released": "2026-06-20",
+          "changelog": "Catalog expanded to 28 manufacturers / 145 devices: added no-brand keypad clones (Sebury/ATLO/generic/YLI) and CIS domofons (Eltis, VIZIT, Cyfral, Metakom, Rainmann) with verified service codes. New similar-brand/clone links, tier badges, and a Latvian distributor & service directory."
+        },
         {
           "versionName": "0.1.1",
           "versionCode": 2,
@@ -186,6 +195,42 @@
         "released": "2026-06-13",
         "changelog": "Initial release: scan, suggestions, organise, apps, recycle bin."
       },
+      "history": [],
+      "website": null,
+      "source": null
+    },
+    {
+      "id": "com.gob",
+      "slug": "gob",
+      "name": "Cloudberry Latvia Markers",
+      "summary": "Browse and navigate to curated map locations across Latvia.",
+      "description": "Interactive map app for exploring locations across Latvia. Browse points on an OpenStreetMap view or in a searchable list sorted by distance from you, then tap any marker to see its coordinates and open turn-by-turn directions. Built for finding and reaching cloudberry and other nature/foraging spots.",
+      "icon": "icons/gob.png",
+      "category": "maps",
+      "history": [],
+      "website": null,
+      "source": null
+    },
+    {
+      "id": "io.cny.waypay",
+      "slug": "waypay",
+      "name": "WayPay",
+      "summary": "Import DJI drone .kmz waypoint routes into DJI Fly from your phone — no PC needed.",
+      "description": "WayPay copies waypoint .kmz files (e.g. routes drawn at waypointmap.com) into DJI Fly's protected app folder using Shizuku, replacing the usual PC+adb workflow with about one tap. Early, experimental personal utility: import happy-path only, requires Shizuku installed and running. Use at your own risk.",
+      "icon": "icons/waypay.png",
+      "category": "tools",
+      "history": [],
+      "website": null,
+      "source": null
+    },
+    {
+      "id": "com.appz.store",
+      "slug": "appstore",
+      "name": "Gvido's Apps",
+      "summary": "The marketplace client — browse, install, and update all of Gvido's apps in one place.",
+      "description": "The phone client for this app store. Browse every app, see which are installed and which have updates, and install or update with one tap. Offline-cached catalog, version history, changelogs, and an in-app diagnostics log. Sideload store — updates are one-tap (Android shows the install prompt).",
+      "icon": "icons/appstore.png",
+      "category": "tools",
       "history": [],
       "website": null,
       "source": null
