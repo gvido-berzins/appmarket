@@ -230,7 +230,16 @@
       "category": "tools",
       "history": [],
       "website": null,
-      "source": null
+      "source": null,
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 100,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/waypay-v0.1.0/waypay-v0.1.0.apk",
+        "size": 2191888,
+        "minSdk": 30,
+        "released": "2026-06-20",
+        "changelog": "Initial early-preview: import DJI .kmz waypoint files into DJI Fly via Shizuku (import happy-path only)."
+      }
     },
     {
       "id": "com.appz.store",
