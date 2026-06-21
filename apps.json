@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20",
+  "updated": "2026-06-21",
   "market": {
     "name": "Gvido's Apps",
     "owner": "gvido-berzins"
@@ -443,6 +443,27 @@
         "minSdk": 26,
         "released": "2026-06-20",
         "changelog": "Reverse-engineering prevention: R8 code shrinking + obfuscation (Room keeps; org.json parsing unaffected)."
+      }
+    },
+    {
+      "id": "com.appz.knots",
+      "slug": "knots",
+      "name": "Knots — Climbing & Rappel",
+      "summary": "Offline climbing & rappel knots, rope techniques, and priced gear loadouts.",
+      "description": "Learn the essential climbing and rappel knots offline: 18 knots (prusik, figure-8 tie-in, sliding/friction hitches, joining bends, Munter, stoppers) with step-by-step instructions, safety callouts, and illustrated/animated visuals. Plus multi- and single-rope descent techniques, a 10-point rappel safety checklist, and 4 priced gear loadouts sourced from gandrs.lv. Educational reference, not a substitute for hands-on instruction. Fully offline.",
+      "icon": "icons/knots.png",
+      "category": "outdoors",
+      "history": [],
+      "website": null,
+      "source": null,
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 100,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/knots-v0.1.0/knots-v0.1.0.apk",
+        "size": 2519419,
+        "minSdk": 26,
+        "released": "2026-06-21",
+        "changelog": "Initial release: 18 climbing/rappel knots with steps, safety callouts and illustrated/animated visuals; 11 rope techniques (multi- & single-rope); 10-point rappel safety checklist; 4 priced gear loadouts (gandrs.lv)."
       }
     }
   ]
