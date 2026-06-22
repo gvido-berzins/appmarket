@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "market": {
     "name": "Gvido's Apps",
     "owner": "gvido-berzins"
@@ -464,6 +464,27 @@
         "minSdk": 26,
         "released": "2026-06-21",
         "changelog": "Initial release: 18 climbing/rappel knots with steps, safety callouts and illustrated/animated visuals; 11 rope techniques (multi- & single-rope); 10-point rappel safety checklist; 4 priced gear loadouts (gandrs.lv)."
+      }
+    },
+    {
+      "id": "com.appz.carsec",
+      "slug": "carsec",
+      "name": "Car Security Check",
+      "summary": "Check a used car's theft/security exposure before buying — offline, source-cited (EU/LV).",
+      "description": "Before buying a used car, check its security and theft exposure offline. Look up 206 models to see which security issues affect them — keyless relay, RollingPWN rolling-code defeat, CAN-injection theft, OBD key-cloning, weak/absent immobilisers, infotainment vulns — each confidence-labelled and source-cited, with detection methods (kerbside / inside / test-drive / OBD / radio-scan), remediations flagged genuine-fix vs mitigation-only, immobiliser key-system strength, and risky accessories with EU/Latvia legal status. Research-grade reference, not professional advice; absence of a listing is not proof a car is safe. Fully offline.",
+      "icon": "icons/carsec.png",
+      "category": "security",
+      "history": [],
+      "website": null,
+      "source": null,
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 100,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/carsec-v0.1.0/carsec-v0.1.0.apk",
+        "size": 1243832,
+        "minSdk": 26,
+        "released": "2026-06-22",
+        "changelog": "Initial release: offline used-car security checker — 206 models, 22 source-cited security issues with detection + remediation, 7 immobiliser key systems, risky accessories (EU/LV legal status)."
       }
     }
   ]
