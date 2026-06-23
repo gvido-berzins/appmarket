@@ -518,7 +518,16 @@
       "category": "nature",
       "history": [],
       "website": null,
-      "source": null
+      "source": null,
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 1,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/jasmine-v0.1.0/jasmine-v0.1.0.apk",
+        "size": 20882588,
+        "minSdk": 21,
+        "released": "2026-06-23",
+        "changelog": "Initial release: map of 37 wild mock-orange ('jasmīns') spots in Latvia (iNaturalist/GBIF + manor parks), identification guide, look-alikes, find-it indicators, and a searchable wiki."
+      }
     }
   ]
 }
