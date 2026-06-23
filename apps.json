@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22",
+  "updated": "2026-06-23",
   "market": {
     "name": "Gvido's Apps",
     "owner": "gvido-berzins"
@@ -486,6 +486,39 @@
         "released": "2026-06-22",
         "changelog": "Initial release: offline used-car security checker — 206 models, 22 source-cited security issues with detection + remediation, 7 immobiliser key systems, risky accessories (EU/LV legal status)."
       }
+    },
+    {
+      "id": "com.appz.awawa",
+      "slug": "awawa",
+      "name": "aWaWa",
+      "summary": "Offline gear inventory + mission/trip planner with packing checklists & reminders.",
+      "description": "Organize your gear and plan trips offline. Catalogue inventory items (photos, quantity, notes, custom categories), build missions with a packing checklist + per-item to-dos, track mission progress (Planned → Active → Completed) with countdowns and reminders, duplicate missions as templates, and back up/restore everything as JSON. A dashboard shows your gear and active missions at a glance. Fully offline.",
+      "icon": "icons/awawa.png",
+      "category": "tools",
+      "history": [],
+      "website": null,
+      "source": null,
+      "latest": {
+        "versionName": "0.2.0",
+        "versionCode": 20260623,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/awawa-v0.2.0/awawa-v0.2.0.apk",
+        "size": 22145426,
+        "minSdk": 21,
+        "released": "2026-06-23",
+        "changelog": "Major refresh: full CRUD, dashboard, mission lifecycle + progress, custom categories, duplicate missions, JSON backup/restore, formatted dates + countdowns, polished Material 3 UI."
+      }
+    },
+    {
+      "id": "com.appz.jasmine",
+      "slug": "jasmine",
+      "name": "Jasmīns LV (Wild Jasmine)",
+      "summary": "Find wild 'jasmine' (mock orange) in Latvia — map of spots, field guide & wiki.",
+      "description": "A map + field guide for finding wild 'jasmine' in Latvia — which is really mock orange (Philadelphus coronarius / neīstais jasmīns), an old-manor-park shrub that smells like jasmine. Browse 37 mapped spots (iNaturalist/GBIF records + historic manor parks) across all regions, with an identification guide, look-alikes, the June bloom window, the find-it indicators (the lilac + mock-orange pairing marks a vanished homestead), and a searchable wiki. Spot data, guide and coordinates are offline; the map tiles need network. Grown for scent, not food — see the safety note.",
+      "icon": "icons/jasmine.png",
+      "category": "nature",
+      "history": [],
+      "website": null,
+      "source": null
     }
   ]
 }
