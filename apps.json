@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23",
+  "updated": "2026-06-24",
   "market": {
     "name": "Gvido's Apps",
     "owner": "gvido-berzins"
@@ -527,6 +527,27 @@
         "minSdk": 21,
         "released": "2026-06-23",
         "changelog": "Initial release: map of 37 wild mock-orange ('jasmīns') spots in Latvia (iNaturalist/GBIF + manor parks), identification guide, look-alikes, find-it indicators, and a searchable wiki."
+      }
+    },
+    {
+      "id": "com.appz.rockhound",
+      "slug": "rockhound",
+      "name": "Akmeņmedības — Latvija",
+      "summary": "Find amber, fossils, gems & rocks in Latvia — map, illustrated catalog, methods & the law.",
+      "description": "A field companion for rock, gem, fossil and AMBER hunting in Latvia. A map of 25 spots (Kurzeme amber beaches, Devonian fossil cliffs, geological monuments, museums) with navigation; an illustrated CATALOG of 23 finds — Baltic amber, armoured Devonian fish, brachiopods, corals, crinoids, trilobites, gypsum/selenite, calcite, pyrite, quartz, flint, agate, garnet, rapakivi granite, belemnites and more — each with a photo, ID tips, where to look and rarity; HOW-TO-HUNT methods including sand sifting + the brine float test, storm timing and the traditional amber-netting; and a LAW & RULES section (what's allowed and where, with statute citations). Includes the white-phosphorus safety warning. Spot data, catalog and guide are fully offline; the map tiles need network.",
+      "icon": "icons/rockhound.png",
+      "category": "nature",
+      "history": [],
+      "website": null,
+      "source": null,
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 1,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/rockhound-v0.1.0/rockhound-v0.1.0.apk",
+        "size": 23717987,
+        "minSdk": 21,
+        "released": "2026-06-24",
+        "changelog": "Initial release: amber/rock/fossil hunting in Latvia — map of 25 spots, illustrated 23-item catalog (with photos), 10 hunting methods incl. sand sifting + brine test, full Law & Rules section, and the phosphorus safety warning."
       }
     }
   ]
