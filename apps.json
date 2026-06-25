@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24",
+  "updated": "2026-06-25",
   "market": {
     "name": "Gvido's Apps",
     "owner": "gvido-berzins"
@@ -548,6 +548,27 @@
         "minSdk": 21,
         "released": "2026-06-24",
         "changelog": "Initial release: amber/rock/fossil hunting in Latvia — map of 25 spots, illustrated 23-item catalog (with photos), 10 hunting methods incl. sand sifting + brine test, full Law & Rules section, and the phosphorus safety warning."
+      }
+    },
+    {
+      "id": "com.appz.senes",
+      "slug": "senes",
+      "name": "Sēnes — Latvija",
+      "summary": "Offline mushroom foraging field guide for Latvia — edible catalog with photos, deadly look-alikes, season & safety.",
+      "description": "A safety-forward offline guide to foraging mushrooms in Latvia. An illustrated CATALOG of 28 edible species (porcini, chanterelles, boletes, milkcaps, russulas, morels, puffballs and more) with photos, identification features, season, habitat and preparation. A DEADLY & TOXIC section with 16 poisonous species (death cap, destroying angel, funeral bell, deadly webcap, false morel…) and 7 toxic look-alike pairs, built around the delayed-onset warning and the rule: never eat a white-gilled, white-spored mushroom with a sac at the base. A season calendar, habitat guide, the golden safety rules (no folk test works), Latvian foraging law, and a one-tap EMERGENCY screen with the poison centre and ambulance numbers. Fully offline. NOT a substitute for expert identification — when in doubt, throw it out.",
+      "icon": "icons/senes.png",
+      "category": "nature",
+      "history": [],
+      "website": null,
+      "source": null,
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 1,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/senes-v0.1.0/senes-v0.1.0.apk",
+        "size": 24874783,
+        "minSdk": 21,
+        "released": "2026-06-25",
+        "changelog": "Initial release: offline Latvia mushroom guide — 28 edibles (with photos), 16 poisonous species + 7 toxic look-alike pairs, season calendar, habitat, safety rules, foraging law, and a one-tap emergency/poison-centre screen."
       }
     }
   ]
