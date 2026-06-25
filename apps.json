@@ -570,6 +570,27 @@
         "released": "2026-06-25",
         "changelog": "Initial release: offline Latvia mushroom guide — 28 edibles (with photos), 16 poisonous species + 7 toxic look-alike pairs, season calendar, habitat, safety rules, foraging law, and a one-tap emergency/poison-centre screen."
       }
+    },
+    {
+      "id": "com.appz.sswatch",
+      "slug": "sswatch",
+      "name": "SS Vērotājs",
+      "summary": "Monitor ss.com classifieds by keyword & price — background alerts when a match appears. With 20 security-gear preset filters.",
+      "description": "Watch the Latvian classifieds site ss.com for exactly what you want. Create monitors over any of 813 categories with keyword include/exclude (ANY/ALL), price range and date filters; the app polls the RSS feeds in the background and fires a notification the moment a new listing matches. Includes 20 ready-made SECURITY-GEAR preset filters — SDR/RF, Flipper & BadUSB, RFID/NFC & access, hardware-hacking bench tools, SBCs/MCUs, WiFi & network, lock-picking, practice phones, IoT/camera RE targets, homelab compute, automotive diagnostics, smartcards, security books, PC-component upgrades (GPU/CPU/RAM/storage/expansion cards), wardriving WiFi adapters and OpenWrt/Pineapple-flashable routers. Unified alerts feed with price chips and one-tap open. NOTE: this app fetches ss.com over the network (online).",
+      "icon": "icons/sswatch.png",
+      "category": "tools",
+      "history": [],
+      "website": null,
+      "source": null,
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 100,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/sswatch-v0.1.0/sswatch-v0.1.0.apk",
+        "size": 1713906,
+        "minSdk": 26,
+        "released": "2026-06-25",
+        "changelog": "Initial release: monitor ss.com classifieds by keyword/price across 813 categories with background notifications, plus 20 security-gear preset filters (SDR, Flipper, RFID, hardware-hacking, wardriving adapters, Pineapple routers, PC-component upgrades, and more)."
+      }
     }
   ]
 }
