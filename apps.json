@@ -591,6 +591,27 @@
         "released": "2026-06-25",
         "changelog": "Initial release: monitor ss.com classifieds by keyword/price across 813 categories with background notifications, plus 20 security-gear preset filters (SDR, Flipper, RFID, hardware-hacking, wardriving adapters, Pineapple routers, PC-component upgrades, and more)."
       }
+    },
+    {
+      "id": "com.appz.jewelry",
+      "slug": "jewelry",
+      "name": "Rotas",
+      "summary": "Bilingual (EN/LV) offline jewelry-making reference - metals, gemstones with photos, techniques & charts.",
+      "description": "A complete offline reference for jewelry-making, fully bilingual (English + Latvian, with a language toggle). 27 METALS with melting points, density, hardness, pros/cons and hypoallergenic/nickel warnings, plus the karat-fineness reference. 40 GEMSTONES with photos, Mohs hardness, colours, birthstones, care, and 'too soft for rings' / 'never ultrasonic' warnings. 22 TECHNIQUES (casting, soldering, granulation, filigree...) plus stone settings, findings, gem cuts and tools. 13 REFERENCE CHARTS - ring sizes, wire gauge, Mohs scale, birthstones & anniversaries, hallmarks, solder temperatures, care & cleaning, gem treatments, real-vs-fake tests, safety, chain types, length guides and metal scrap-value. A 59-term EN-LV glossary. Every metal and gemstone has a photo and both English and Latvian names. Fully offline.",
+      "icon": "icons/jewelry.png",
+      "category": "tools",
+      "history": [],
+      "website": null,
+      "source": null,
+      "latest": {
+        "versionName": "0.1.0",
+        "versionCode": 1,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/jewelry-v0.1.0/jewelry-v0.1.0.apk",
+        "size": 24616945,
+        "minSdk": 21,
+        "released": "2026-06-25",
+        "changelog": "Initial release: bilingual EN/LV jewelry reference - 27 metals (melting points, pros/cons, hypoallergenic), 40 gemstones with photos, 22 techniques + settings/findings/cuts/tools, 13 reference charts, and a 59-term glossary. Fully offline."
+      }
     }
   ]
 }
