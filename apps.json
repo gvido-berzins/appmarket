@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25",
+  "updated": "2026-06-27",
   "market": {
     "name": "Gvido's Apps",
     "owner": "gvido-berzins"
@@ -54,15 +54,24 @@
       "icon": "icons/aksess.png",
       "category": "work",
       "latest": {
-        "versionName": "0.2.2",
-        "versionCode": 202,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.2.2/aksess-v0.2.2.apk",
-        "size": 1784247,
+        "versionName": "0.3.0",
+        "versionCode": 300,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.3.0/aksess-v0.3.0.apk",
+        "size": 1805155,
         "minSdk": 26,
-        "released": "2026-06-20",
-        "changelog": "Security hardening: disable cloud backup of inventory data (allowBackup=false)."
+        "released": "2026-06-27",
+        "changelog": "Catalog expansion: added Farfisa and Commax manufacturers and expanded Rosslare (8→19 devices) — now 30 manufacturers / 201 devices, with programming sequences, default codes, wiring and factory-reset guides per device."
       },
       "history": [
+        {
+          "versionName": "0.2.2",
+          "versionCode": 202,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.2.2/aksess-v0.2.2.apk",
+          "size": 1784247,
+          "minSdk": 26,
+          "released": "2026-06-20",
+          "changelog": "Security hardening: disable cloud backup of inventory data (allowBackup=false)."
+        },
         {
           "versionName": "0.2.1",
           "versionCode": 201,
