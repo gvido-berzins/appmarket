@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27",
+  "updated": "2026-07-09",
   "market": {
     "name": "Gvido's Apps",
     "owner": "gvido-berzins"
@@ -546,17 +546,27 @@
       "description": "A field companion for rock, gem, fossil and AMBER hunting in Latvia. A map of 25 spots (Kurzeme amber beaches, Devonian fossil cliffs, geological monuments, museums) with navigation; an illustrated CATALOG of 23 finds — Baltic amber, armoured Devonian fish, brachiopods, corals, crinoids, trilobites, gypsum/selenite, calcite, pyrite, quartz, flint, agate, garnet, rapakivi granite, belemnites and more — each with a photo, ID tips, where to look and rarity; HOW-TO-HUNT methods including sand sifting + the brine float test, storm timing and the traditional amber-netting; and a LAW & RULES section (what's allowed and where, with statute citations). Includes the white-phosphorus safety warning. Spot data, catalog and guide are fully offline; the map tiles need network.",
       "icon": "icons/rockhound.png",
       "category": "nature",
-      "history": [],
+      "history": [
+        {
+          "versionName": "0.1.0",
+          "versionCode": 1,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/rockhound-v0.1.0/rockhound-v0.1.0.apk",
+          "size": 23717987,
+          "minSdk": 21,
+          "released": "2026-06-24",
+          "changelog": "Initial release: amber/rock/fossil hunting in Latvia — map of 25 spots, illustrated 23-item catalog (with photos), 10 hunting methods incl. sand sifting + brine test, full Law & Rules section, and the phosphorus safety warning."
+        }
+      ],
       "website": null,
       "source": null,
       "latest": {
-        "versionName": "0.1.0",
-        "versionCode": 1,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/rockhound-v0.1.0/rockhound-v0.1.0.apk",
-        "size": 23717987,
+        "versionName": "0.3.0",
+        "versionCode": 300,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/rockhound-v0.3.0/rockhound-v0.3.0.apk",
+        "size": 25307052,
         "minSdk": 21,
-        "released": "2026-06-24",
-        "changelog": "Initial release: amber/rock/fossil hunting in Latvia — map of 25 spots, illustrated 23-item catalog (with photos), 10 hunting methods incl. sand sifting + brine test, full Law & Rules section, and the phosphorus safety warning."
+        "released": "2026-07-09",
+        "changelog": "Major content update: integrated deep field research — 49 collecting spots, 15 verified map sites/zones, 29 rock & mineral finds, 17 methods, plus corrected Latvia/Estonia metal-detector rules and legal collecting zones."
       }
     },
     {
