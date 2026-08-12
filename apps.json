@@ -49,20 +49,29 @@
       "id": "com.aksess",
       "slug": "aksess",
       "name": "Aksess",
-      "summary": "Access-control field inventory — photo+GPS records, 28-manufacturer catalog with programming guides, similar-brand/clone links, map.",
-      "description": "Inventory installed access-control systems across the city: photo with EXIF GPS, manufacturer/model/features/placement. Catalog of 28 manufacturers and 145 devices with programming guides (default codes, commands, resets) — premium readers, no-brand Chinese keypad clones (Sebury/ATLO/generic) and CIS apartment domofons (Eltis, VIZIT, Cyfral, Metakom, Rainmann). Similar-brand/clone links, a Latvian distributor directory, offline map with colour-coded markers, searchable wiki. Fully offline.",
+      "summary": "Access-control field inventory — photo+GPS records, 33-manufacturer catalog with programming guides, similar-brand/clone links, map.",
+      "description": "Inventory installed access-control systems across the city: photo with EXIF GPS, manufacturer/model/features/placement. Catalog of 33 manufacturers and 253 devices with programming guides (default codes, commands, resets) — premium readers (HID, Suprema, Paxton, Roger, CDVI, Soyal), no-brand Chinese keypad clones (Sebury/ATLO/generic), self-contained keypad & locker locks (Codelocks), gate/garage remotes (Marantec) and CIS apartment domofons (Eltis, VIZIT, Cyfral, Metakom, Rainmann). Similar-brand/clone links, a Latvian distributor directory, offline map with colour-coded markers, searchable wiki. Fully offline.",
       "icon": "icons/aksess.png",
       "category": "work",
       "latest": {
-        "versionName": "0.3.0",
-        "versionCode": 300,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.3.0/aksess-v0.3.0.apk",
-        "size": 1805155,
+        "versionName": "0.4.0",
+        "versionCode": 400,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.4.0/aksess-v0.4.0.apk",
+        "size": 1824199,
         "minSdk": 26,
-        "released": "2026-06-27",
-        "changelog": "Catalog expansion: added Farfisa and Commax manufacturers and expanded Rosslare (8→19 devices) — now 30 manufacturers / 201 devices, with programming sequences, default codes, wiring and factory-reset guides per device."
+        "released": "2026-08-12",
+        "changelog": "Catalog expansion: 33 manufacturers / 253 devices (was 30 / 201). New brands Codelocks (CL series, KitLock, NetCode), Marantec (gate/garage remotes) and Soyal; Hikvision expanded by 33 models; HID multiCLASS SE reader line completed (RP10/RP15/RP30/RPK40) with full datasheet specs. Fixes 30 Farfisa and Rosslare devices that displayed a bogus price."
       },
       "history": [
+        {
+          "versionName": "0.3.0",
+          "versionCode": 300,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/aksess-v0.3.0/aksess-v0.3.0.apk",
+          "size": 1805155,
+          "minSdk": 26,
+          "released": "2026-06-27",
+          "changelog": "Catalog expansion: added Farfisa and Commax manufacturers and expanded Rosslare (8→19 devices) — now 30 manufacturers / 201 devices, with programming sequences, default codes, wiring and factory-reset guides per device."
+        },
         {
           "versionName": "0.2.2",
           "versionCode": 202,
