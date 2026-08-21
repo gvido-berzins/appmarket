@@ -650,15 +650,24 @@
       "icon": "icons/eesti-atlas.png",
       "category": "travel",
       "latest": {
-        "versionName": "1.0.3",
-        "versionCode": 4,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/eesti-atlas-v1.0.3/eesti-atlas-v1.0.3.apk",
-        "size": 100293736,
+        "versionName": "1.0.4",
+        "versionCode": 5,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/eesti-atlas-v1.0.4/eesti-atlas-v1.0.4.apk",
+        "size": 100293752,
         "minSdk": 24,
         "released": "2026-08-21",
-        "changelog": "Theme dropdown: 5 full themes (fonts, colors, live basemap recolor) — Night Atlas, Daylight Paper, Baltic Fog, Field Journal, Phosphor."
+        "changelog": "18 vintage/antique/reuse shops across 6 towns; rainy-day filter now covers all shops."
       },
       "history": [
+        {
+          "versionName": "1.0.3",
+          "versionCode": 4,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/eesti-atlas-v1.0.3/eesti-atlas-v1.0.3.apk",
+          "size": 100293736,
+          "minSdk": 24,
+          "released": "2026-08-21",
+          "changelog": "Theme dropdown: 5 full themes (fonts, colors, live basemap recolor) — Night Atlas, Daylight Paper, Baltic Fog, Field Journal, Phosphor."
+        },
         {
           "versionName": "1.0.2",
           "versionCode": 3,
