@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09",
+  "updated": "2026-08-21",
   "market": {
     "name": "Gvido's Apps",
     "owner": "gvido-berzins"
@@ -640,6 +640,27 @@
         "released": "2026-06-25",
         "changelog": "Initial release: bilingual EN/LV jewelry reference - 27 metals (melting points, pros/cons, hypoallergenic), 40 gemstones with photos, 22 techniques + settings/findings/cuts/tools, 13 reference charts, and a 59-term glossary. Fully offline."
       }
+    },
+    {
+      "id": "com.eeguide.app",
+      "slug": "eesti-atlas",
+      "name": "Eesti Atlas",
+      "summary": "Offline Estonia travel atlas — 409 places with photos, offline vector map, urbex labels, Saaremaa day-raid plans, ferry schedule.",
+      "description": "Offline field guide for Estonia: 409 researched places (sights, hidden gems, 58 labelled urbex/Soviet sites, shops incl. the Moomin hunt) each with a photo, article, facts and tips. Offline MapLibre vector basemap of the whole country, county overlay with toggle, highlighted cities, dedicated Saaremaa view, top-N closest places by GPS, Virtsu–Kuivastu ferry schedule and ready-made weekend trip plans from Cēsis. Fully offline — airplane mode fine. Also available as a web PWA.",
+      "icon": "icons/eesti-atlas.png",
+      "category": "travel",
+      "latest": {
+        "versionName": "1.0.0",
+        "versionCode": 1,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/eesti-atlas-v1.0.0/eesti-atlas-v1.0.0.apk",
+        "size": 94414545,
+        "minSdk": 24,
+        "released": "2026-08-21",
+        "changelog": "Initial release: 409 places with photos, offline map, trips, transport, shops."
+      },
+      "history": [],
+      "website": null,
+      "source": null
     }
   ]
 }
