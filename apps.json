@@ -650,15 +650,24 @@
       "icon": "icons/eesti-atlas.png",
       "category": "travel",
       "latest": {
-        "versionName": "1.0.2",
-        "versionCode": 3,
-        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/eesti-atlas-v1.0.2/eesti-atlas-v1.0.2.apk",
-        "size": 100290450,
+        "versionName": "1.0.3",
+        "versionCode": 4,
+        "apk": "https://github.com/gvido-berzins/appmarket/releases/download/eesti-atlas-v1.0.3/eesti-atlas-v1.0.3.apk",
+        "size": 100293736,
         "minSdk": 24,
         "released": "2026-08-21",
-        "changelog": "Category icon markers, hover previews with pin-on-tap, expandable in-map detail card; Read article opens in a new tab on the web."
+        "changelog": "Theme dropdown: 5 full themes (fonts, colors, live basemap recolor) — Night Atlas, Daylight Paper, Baltic Fog, Field Journal, Phosphor."
       },
       "history": [
+        {
+          "versionName": "1.0.2",
+          "versionCode": 3,
+          "apk": "https://github.com/gvido-berzins/appmarket/releases/download/eesti-atlas-v1.0.2/eesti-atlas-v1.0.2.apk",
+          "size": 100290450,
+          "minSdk": 24,
+          "released": "2026-08-21",
+          "changelog": "Category icon markers, hover previews with pin-on-tap, expandable in-map detail card; Read article opens in a new tab on the web."
+        },
         {
           "versionName": "1.0.1",
           "versionCode": 2,
